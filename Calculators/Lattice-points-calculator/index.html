@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lattice Points Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Lattice Points in a Circle</h1>
+        <div id="controls">
+            <div>
+                <label for="radius">Radius:</label>
+                <input type="number" id="radius" min="1" value="1">
+                <button onclick="calculateLatticePoints()">Calculate</button>
+            </div>
+        </div>
+        <canvas id="canvas" width="400" height="400"></canvas>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
